@@ -405,7 +405,7 @@ if __name__ == '__main__':
         op = JADE(func_num)
         best_input, best_value = op.run(fes)
 
-        with open("{}_function{}.txt".format(__file__.split('_')[0], func_num), 'w+') as f:
+        with open("function{}.txt".format(func_num), 'w+') as f:
             for i in range(op.dim):
                 f.write("{}\n".format(best_input[i]))
             f.write("{}\n".format(best_value))
