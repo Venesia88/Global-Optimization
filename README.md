@@ -6,6 +6,8 @@ Implementation of 2 algorithms based on Differential Evolution (DE):
 - CoDE: Composite Differential Evolution (https://ieeexplore.ieee.org/document/5688232)
 - JADE: Adaptive Differential Evolution (https://ieeexplore.ieee.org/document/5208221) 
 
+Function Evaluation limit for each function is 1000, 1500, 2000, 2500.
+
 # Usage
 use python 3.6, 3.7, 3.8, 3.9 for sourcedefender
 
